@@ -7,9 +7,9 @@
     <!-- autor del documento -->
     <meta name="author" content="yuliethgonzalezqliceovvh.cl">
     <!-- titulo de la pestaña -->
-    <title>Denunciar</title>
+    <title>Chat de apoyo</title>
     <!-- estilos css -->
-    <link rel="stylesheet" href="static/css/denunciar.css">
+    <link rel="stylesheet" href="../static/css/ayuda.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
     <header>
         <div class="silent-alert">
             <h1>Alerta Silenciosa</h1>
@@ -34,7 +33,6 @@
     </header>
 
     <div class="container">
-        <!-- Sección lateral -->
         <aside>
             <div class="perfil">
                 <img src="static/images/perfil.png" alt="Usuario" width="50px">
@@ -53,26 +51,10 @@
                 <button id="enviarMensaje">➤</button>
             </div>
         </aside>
-
-        <!-- Formulario de denuncia -->
-        <section class="formulario">
-            <h2>Nota de denuncia</h2>
-            <form id="denunciaForm">
-                <label>Curso (no obligatorio):
-                    <input type="text" name="curso" placeholder="Ej: 3°B">
-                </label>
-                <label>Fecha:
-                    <input type="date" name="fecha" required>
-                </label>
-                <label>Escribe tu denuncia:
-                    <textarea name="detalle" rows="6" required></textarea>
-                </label>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
     </div>
 
-    <script src="static/js/denunciar.js"></script>
+
+    <script src="../static/js/ayuda.js"></script>
 </body>
 
 </html>

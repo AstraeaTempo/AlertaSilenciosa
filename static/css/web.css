@@ -1,0 +1,82 @@
+/* Reseteo básico de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: "Roboto", sans-serif;
+    background: #f5f5f5;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navegación */
+nav {
+    background-color: #998b8b;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    background-color: white;
+    color: #4e4a4a;
+    border: 1px solid #a79e9e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #6e6465;
+    color: white;
+    border: 1px solid #6e6465;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Imágenes */
+.img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+.titulo h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subtitulo p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Texto adicional */
+.text {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text p {
+    font-size: 1em;
+    color: #444;
+}

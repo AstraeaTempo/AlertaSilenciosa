@@ -1,7 +1,7 @@
 function login() {
-    window.location.href = "sesion.html";
+    window.location.href = "Pages/sesion.html";
 }
 
 function signin() {
-    window.location.href = "alumno_profe.html";
+    window.location.href = "Pages/alumno_profe.html";
 }

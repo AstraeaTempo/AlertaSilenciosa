@@ -3,6 +3,5 @@ function login() {
 }
 
 function signin() {
-    window.location.href = "registro.html";
+    window.location.href = "alumno_profe.html";
 }
-

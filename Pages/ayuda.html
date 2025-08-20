@@ -22,12 +22,11 @@
 
 <body>
 
-    <!-- Barra de navegación  -->
     <header>
-        <div class="alerta">
+        <div class="silent-alert">
             <h1>Alerta Silenciosa</h1>
         </div>
-        <nav class="links">
+        <nav>
             <a href="inicio.html">Inicio</a>
             <a href="ayuda.html">Ayuda</a>
             <a href="denunciar.html">Denunciar</a>
@@ -55,25 +54,21 @@
             </div>
         </aside>
 
-        <!-- Botón de menú -->
-        <span class="menu-btn" onclick="toggleSidebar()">&#9776;</span>
-
-        <!-- Barra lateral -->
-        <div id="sidebar" class="sidebar">
-            <a href="#">¿Cómo usar el sitio?</a>
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">Contacto</a>
-            <a href="#">Reportar un problema</a>
+        <!-- Centro -->
+        <div class="cdg">
+            <div class="centro">
+                <h1>Chat de apoyo</h1>
+                <p>Este chat te ayudará en los momentos que quieras desahogarte.</p>
+            </div>
+            <!-- Imagen -->
+            <div class="img">
+                <img src="static/images/hola.jpg" height="150px" width="250px" alt="persona">
+            </div>
         </div>
 
-        <!-- Contenido principal -->
-        <div class="container">
-            <h1>Chat de apoyo</h1>
-            <p>A continuación podrás hablar con la IA para contarle lo que quieras, de esta manera recibirás consejos y
-                ayuda.</p>
-        </div>
 
-        <script src="static/js/ayuda.js"></script>
+
+        <script src="../static/js/ayuda.js"></script>
 
         <!-- Chatbase widget -->
         <script>
